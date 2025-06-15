@@ -164,5 +164,5 @@ MIT License © 2025 [Tajeddine Bourhim & Imad El Khelyfy]. See [LICENSE](LICENSE
 
 - Author: [Tajeddine Bourhim](mailto:bourhimtajeddine@gmail.com) - [Imad El Khelyfy](mailto:imadelkhelyfy@gmail.com)  
 - GitHub: 
-- [@scorpiontaj](https://github.com/scorpiontaj)
-- [@IMADKHKHALIF](https://github.com/IMADKHKHALIFI)
+  - [@scorpiontaj](https://github.com/scorpiontaj)
+  - [@IMADKHKHALIFI](https://github.com/IMADKHKHALIFI)
