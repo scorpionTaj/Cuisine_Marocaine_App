@@ -1,0 +1,65 @@
+name: cuisine_marocaine_app
+description: A complete Flutter restaurant menu application with modern UI and features
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  appwrite: ^17.0.1
+  sqflite: ^2.3.0
+  path: ^1.8.0
+  http: ^1.0.0
+  url_launcher: ^6.1.10
+
+  # UI and Icons
+  cupertino_icons: ^1.0.2
+  
+  # Data persistence
+  shared_preferences: ^2.2.2
+  
+  # Google Fonts for modern typography
+  google_fonts: ^6.1.0
+
+  # Date and time handling
+  intl: ^0.20.2
+
+  # Calendar widget for reservations
+  table_calendar: ^3.0.9
+  sqflite_common_ffi: ^2.3.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/harira.jpeg
+    - assets/images/briouates.jpeg
+    - assets/images/zaalouk.jpeg
+    - assets/images/tajine_poulet.jpeg
+    - assets/images/couscous.jpeg
+    - assets/images/mechoui.jpeg
+    - assets/images/cornes_gazelle.jpeg
+    - assets/images/chebakia.jpeg
+    - assets/images/the_menthe.jpeg
+    - assets/images/jus_orange.jpeg
+    - assets/apikey.txt
+    - assets/logo.png
+
+# Flutter Launcher Icons configuration
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/logo.png"
